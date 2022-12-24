@@ -12,5 +12,7 @@ namespace E_CommerceDapper.DataAccess.Concretes
         public ICategoryRepository CategoryRepository => new CategoryRepository();
 
         public IProductRepository ProductRepository => new ProductRepository();
+
+        public IOrderDetailsRepository OrderDetailsRepository => new OrderDetailsRepository();
     }
 }

@@ -10,5 +10,7 @@ namespace E_CommerceDapper.DataAccess.Abstractions
     {
         ICategoryRepository CategoryRepository { get; }
         IProductRepository ProductRepository { get; }
+
+        IOrderDetailsRepository OrderDetailsRepository { get; }
     }
 }
